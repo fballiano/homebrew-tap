@@ -4,10 +4,10 @@ Homebrew casks for the macOS applications of Fabrizio Balliano.
 
 | Cask | What it is | Repository |
 |---|---|---|
-| `clipboard-controller` | Menu bar clipboard history and clipboard cleaner | [fballiano/clipboard-controller](https://github.com/fballiano/clipboard-controller) |
-| `desktop-commander` | Menu bar switches for macOS and window management | [fballiano/desktop-commander](https://github.com/fballiano/desktop-commander) |
-| `termora` | SSH connection manager on the Ghostty terminal engine | [fballiano/termora](https://github.com/fballiano/termora) |
-| `thyme-ng` | Menu bar stopwatch | [fballiano/thyme-ng](https://github.com/fballiano/thyme-ng) |
+| `clipyard` | Menu bar clipboard history and clipboard cleaner | [fballiano/clipyard](https://github.com/fballiano/clipyard) |
+| `deskyard` | Menu bar switches and window management | [fballiano/deskyard](https://github.com/fballiano/deskyard) |
+| `shellyard` | SSH connection manager on the Ghostty terminal engine | [fballiano/shellyard](https://github.com/fballiano/shellyard) |
+| `timeyard` | Menu bar stopwatch | [fballiano/timeyard](https://github.com/fballiano/timeyard) |
 
 ## Install
 
@@ -21,28 +21,32 @@ brew trust --tap fballiano/tap
 Then install an application:
 
 ```sh
-brew install --cask fballiano/tap/thyme-ng
+brew install --cask shellyard
 ```
 
-Always use the full name for Termora. The main Homebrew cask repository has
-a different application that is also called "termora":
+## Move from the old names
 
-```sh
-brew install --cask fballiano/tap/termora
-```
+Each application once had another name and its own tap. To move one of them
+to this tap, uninstall the old cask, install the new one, and remove the old
+tap:
 
-## Move from the old taps
+| Old cask | New cask |
+|---|---|
+| `fballiano/termora/termora` | `shellyard` |
+| `fballiano/clipboard-controller/clipboard-controller` | `clipyard` |
+| `fballiano/desktop-commander/desktop-commander` | `deskyard` |
+| `fballiano/thyme-ng/thyme-ng` | `timeyard` |
 
-Each application was once its own tap, for example `fballiano/termora`.
-Those casks no longer get new versions. To move one application to this tap:
+For example:
 
 ```sh
 brew uninstall --cask fballiano/termora/termora
-brew install --cask fballiano/tap/termora
+brew install --cask fballiano/tap/shellyard
 brew untap fballiano/termora
 ```
 
-The uninstall removes the application only. Your settings and data stay.
+The uninstall removes the application only. Your settings and data stay,
+because each application keeps its bundle identifier and its data folders.
 
 ## How the casks are updated
 
