@@ -1,7 +1,7 @@
 # The release workflow of fballiano/shellyard rewrites `version` and `sha256`.
 cask "shellyard" do
-  version "1.3.0"
-  sha256 "7be0d7cce63b3271444f7b2b49b9f4f0a50de697e9aa33e380670371af6ebaa8"
+  version "1.3.1"
+  sha256 "81b36f8aa4aba021500ab73f9e23387d407d85b37a020fe13e177ddd57994aee"
 
   url "https://github.com/fballiano/shellyard/releases/download/v#{version}/Shellyard-#{version}.zip"
   name "Shellyard"
