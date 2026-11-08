@@ -1,6 +1,6 @@
 cask "timeyard" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.1.0"
+  sha256 "9f904cdc647957d1fc08bce2f1b972f8fa646abf20aea614ae5e3c2be7a33e4b"
 
   url "https://github.com/fballiano/timeyard/releases/download/v#{version}/Timeyard-#{version}.dmg"
   name "Timeyard"
