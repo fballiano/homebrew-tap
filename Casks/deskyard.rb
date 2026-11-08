@@ -1,6 +1,6 @@
 cask "deskyard" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.4.0"
+  sha256 "649f2e9bd85d8923ecc8d39200dc4577b22184f013a3aa53d0840a2c8a7bfe62"
 
   url "https://github.com/fballiano/deskyard/releases/download/v#{version}/Deskyard-#{version}.dmg"
   name "Deskyard"
