@@ -1,6 +1,6 @@
 cask "clipyard" do
-  version "0.0.0"
-  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
+  version "1.3.0"
+  sha256 "77a5c883a5bb375a3bcd5074f84fbb85b0fa9cc72454374461ba73579146c4e2"
 
   url "https://github.com/fballiano/clipyard/releases/download/v#{version}/Clipyard-#{version}.dmg"
   name "Clipyard"
