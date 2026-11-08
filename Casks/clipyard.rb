@@ -1,11 +1,11 @@
-cask "clipboard-controller" do
-  version "1.2.1"
-  sha256 "172150ad8d4987137811dd9b44162541ce22bc44eb9a74808f595c5b25a2f913"
+cask "clipyard" do
+  version "0.0.0"
+  sha256 "0000000000000000000000000000000000000000000000000000000000000000"
 
-  url "https://github.com/fballiano/clipboard-controller/releases/download/v#{version}/clipboard-controller-#{version}.dmg"
-  name "clipboard-controller"
+  url "https://github.com/fballiano/clipyard/releases/download/v#{version}/Clipyard-#{version}.dmg"
+  name "Clipyard"
   desc "Menu bar clipboard history and clipboard cleaner"
-  homepage "https://github.com/fballiano/clipboard-controller"
+  homepage "https://github.com/fballiano/clipyard"
 
   livecheck do
     url :url
@@ -14,8 +14,9 @@ cask "clipboard-controller" do
 
   depends_on macos: :sequoia
 
-  app "clipboard-controller.app"
+  app "Clipyard.app"
 
+  # The app keeps the data folders of its old name, clipboard-controller.
   zap trash: [
     "~/Library/Application Support/clipboard-controller",
     "~/Library/Caches/com.fabrizioballiano.clipboard-controller",
