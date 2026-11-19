@@ -2,9 +2,9 @@
 cask "drivecraft" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.6.0"
-  sha256 arm:   "2f66aa0a9d46d0613e2501ce7e7e3c20f58d83602eab7603fabfe6d0a22241f1",
-         intel: "caa2002f089d83b31f6cc5f6dfa31a7d1687b7b66f30b22869d8aecdf1fda864"
+  version "0.7.0"
+  sha256 arm:   "11e072c20995363a2ee1f059e25d36aba1a271b75ad45c9afff303826ef3148a",
+         intel: "ff9a63fdb28b182a82f20a97de0facab5522e00693c282379170f3a72ea80b0c"
 
   url "https://github.com/fballiano/drivecraft/releases/download/v#{version}/DriveCraft-#{version}-macos-#{arch}.zip"
   name "DriveCraft"
