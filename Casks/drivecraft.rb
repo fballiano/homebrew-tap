@@ -2,13 +2,13 @@
 cask "drivecraft" do
   arch arm: "arm64", intel: "x64"
 
-  version "0.1.1"
-  sha256 arm:   "e845d3385f63de1cfcda0cbb7092f4ed4497f4073eeb12e036155e25e94d6ebb",
-         intel: "1f0c1b2882dc1e7c9caa3cfc54e2bbe4def5314bc1163f2318c03f62f9574956"
+  version "0.1.3"
+  sha256 arm:   "fcc0c0e0f4f7d0109f478ef73734b71109679c18bc842d0246ae97200d4215a8",
+         intel: "16176525acbdb7403546983b874ae5c5e46fb597119d676681fa6097795dbe60"
 
   url "https://github.com/fballiano/drivecraft/releases/download/v#{version}/DriveCraft-#{version}-macos-#{arch}.zip"
   name "DriveCraft"
-  desc "Open source client for OneDrive, Dropbox, Box, and more"
+  desc "Open source replacement for the OneDrive, Dropbox, and Box apps"
   homepage "https://github.com/fballiano/drivecraft"
 
   depends_on :macos
