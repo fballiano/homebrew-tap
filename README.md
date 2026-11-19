@@ -6,6 +6,7 @@ Homebrew casks for the macOS applications of Fabrizio Balliano.
 |---|---|---|
 | `clipyard` | Menu bar clipboard history and clipboard cleaner | [fballiano/clipyard](https://github.com/fballiano/clipyard) |
 | `deskyard` | Menu bar switches and window management | [fballiano/deskyard](https://github.com/fballiano/deskyard) |
+| `drivecraft` | Open source client for OneDrive, Dropbox, Box, and more | [fballiano/drivecraft](https://github.com/fballiano/drivecraft) |
 | `shellyard` | SSH connection manager on the Ghostty terminal engine | [fballiano/shellyard](https://github.com/fballiano/shellyard) |
 | `timeyard` | Menu bar stopwatch | [fballiano/timeyard](https://github.com/fballiano/timeyard) |
 
