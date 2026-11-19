@@ -8,7 +8,7 @@ cask "drivecraft" do
 
   url "https://github.com/fballiano/drivecraft/releases/download/v#{version}/DriveCraft-#{version}-macos-#{arch}.zip"
   name "DriveCraft"
-  desc "Open source OneDrive client"
+  desc "Open source client for OneDrive, Dropbox, Box, and more"
   homepage "https://github.com/fballiano/drivecraft"
 
   depends_on :macos
